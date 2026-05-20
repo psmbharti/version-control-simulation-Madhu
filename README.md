@@ -1,4 +1,5 @@
-Project Reflection (≈300 words)
+Project Reflection (300 words)
+
 For this project, I practiced a complete version‑control workflow using Git and GitHub, focusing on branching, merging, conflict resolution, and collaborative review. I began by creating a new repository and cloning it locally. From there, I created separate feature branches to simulate independent development work. The first branch, feature/header, introduced a basic header section in the index.html file. After committing those changes, I switched back to main and created a second branch, feature/footer, where I added a footer section. This structure allowed me to work on two features in isolation, mirroring how teams divide tasks.
 
 To simulate a merge conflict, I intentionally modified the same footer lines in the feature/header branch after the footer had already been added in feature/footer. When I merged feature/footer into main, the merge completed cleanly. However, merging feature/header into main produced a conflict, as expected. I opened the file, reviewed Git’s conflict markers, and manually chose the final version of the footer. After removing the markers, I staged and committed the resolved file.
